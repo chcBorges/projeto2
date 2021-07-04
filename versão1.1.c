@@ -133,9 +133,7 @@ void avaliarMusica(MUSICA musicas[])
             //Aumenta o numero de pessoas de deu uma nota nessa musica
             
             musicas[n].soma += notaSelecionada;
-            printf("\n%f\n", musicas[n].soma);
             musicas[n].nota = (musicas[n].soma / musicas[n].quantNotas);
-            printf("\n%f\n", musicas[n].nota);
             //Realiza o calculo da media das notas inseridas
             printf("A nota atual da musica eh: %.2f", musicas[n].nota);
             
